@@ -1,0 +1,212 @@
+{
+  "scene": "000048",
+  "frame_id": 1,
+  "coordinate_frame": "camera: X right, Y down, Z forward",
+  "position_definition": "coordinate-wise median of valid depth points inside the predicted box",
+  "detections": [
+    {
+      "detection_index": 0,
+      "object_id": 1,
+      "class_id": 0,
+      "confidence": 0.941152811050415,
+      "predicted_box_xyxy": [
+        212.00694274902344,
+        192.66302490234375,
+        331.5860595703125,
+        328.3048095703125
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          212,
+          192,
+          332,
+          329
+        ],
+        "xyz_m": [
+          -0.034058800800166475,
+          0.01068211631617059,
+          0.83
+        ],
+        "valid_pixels": 15009,
+        "valid_fraction": 0.912956204379562,
+        "depth_percentiles_m": [
+          0.79,
+          0.83,
+          0.853
+        ]
+      }
+    },
+    {
+      "detection_index": 1,
+      "object_id": 1,
+      "class_id": 0,
+      "confidence": 0.7397648096084595,
+      "predicted_box_xyxy": [
+        207.74111938476562,
+        139.68716430664062,
+        332.6755676269531,
+        227.72470092773438
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          207,
+          139,
+          333,
+          228
+        ],
+        "xyz_m": [
+          -0.031005915288841723,
+          -0.0444096852701719,
+          0.818
+        ],
+        "valid_pixels": 10443,
+        "valid_fraction": 0.9312466559657571,
+        "depth_percentiles_m": [
+          0.808,
+          0.818,
+          0.838
+        ]
+      }
+    },
+    {
+      "detection_index": 2,
+      "object_id": 6,
+      "class_id": 5,
+      "confidence": 0.7273941040039062,
+      "predicted_box_xyxy": [
+        282.12762451171875,
+        281.58544921875,
+        393.48455810546875,
+        352.6920166015625
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          282,
+          281,
+          394,
+          353
+        ],
+        "xyz_m": [
+          0.01880063152783429,
+          0.06116729861815647,
+          0.779
+        ],
+        "valid_pixels": 5227,
+        "valid_fraction": 0.6481894841269841,
+        "depth_percentiles_m": [
+          0.769,
+          0.779,
+          0.8406999999999998
+        ]
+      }
+    },
+    {
+      "detection_index": 3,
+      "object_id": 14,
+      "class_id": 13,
+      "confidence": 0.7124733328819275,
+      "predicted_box_xyxy": [
+        208.83177185058594,
+        47.41966247558594,
+        341.7525634765625,
+        158.27801513671875
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          208,
+          47,
+          342,
+          159
+        ],
+        "xyz_m": [
+          -0.030174464134056004,
+          -0.10265376515123836,
+          0.81
+        ],
+        "valid_pixels": 11455,
+        "valid_fraction": 0.7632595948827292,
+        "depth_percentiles_m": [
+          0.798,
+          0.81,
+          0.859
+        ]
+      }
+    },
+    {
+      "detection_index": 4,
+      "object_id": 20,
+      "class_id": 19,
+      "confidence": 0.40495043992996216,
+      "predicted_box_xyxy": [
+        154.81301879882812,
+        330.3294982910156,
+        269.4248962402344,
+        381.8373107910156
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          154,
+          330,
+          270,
+          382
+        ],
+        "xyz_m": [
+          -0.08426614225265237,
+          0.08083187495491748,
+          0.742
+        ],
+        "valid_pixels": 3276,
+        "valid_fraction": 0.5431034482758621,
+        "depth_percentiles_m": [
+          0.71175,
+          0.742,
+          0.796
+        ]
+      }
+    },
+    {
+      "detection_index": 5,
+      "object_id": 9,
+      "class_id": 8,
+      "confidence": 0.27504706382751465,
+      "predicted_box_xyxy": [
+        281.6284484863281,
+        282.05145263671875,
+        393.6808776855469,
+        352.03619384765625
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          281,
+          282,
+          394,
+          353
+        ],
+        "xyz_m": [
+          0.01867870784736844,
+          0.06132596865348242,
+          0.7785
+        ],
+        "valid_pixels": 5168,
+        "valid_fraction": 0.6441480742864265,
+        "depth_percentiles_m": [
+          0.769,
+          0.7785,
+          0.84
+        ]
+      }
+    }
+  ]
+}

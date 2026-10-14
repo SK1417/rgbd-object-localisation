@@ -1,0 +1,246 @@
+{
+  "scene": "000048",
+  "frame_id": 1,
+  "coordinate_frame": "camera: X right, Y down, Z forward",
+  "position_definition": "coordinate-wise median of valid depth points inside the predicted box",
+  "detections": [
+    {
+      "detection_index": 0,
+      "object_id": 6,
+      "class_id": 5,
+      "confidence": 0.8678486943244934,
+      "predicted_box_xyxy": [
+        281.53656005859375,
+        281.6505126953125,
+        393.18896484375,
+        350.9400634765625
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          281,
+          281,
+          394,
+          351
+        ],
+        "xyz_m": [
+          0.01870309258346161,
+          0.06060183805517069,
+          0.779
+        ],
+        "valid_pixels": 5148,
+        "valid_fraction": 0.6508217446270543,
+        "depth_percentiles_m": [
+          0.769,
+          0.779,
+          0.841
+        ]
+      }
+    },
+    {
+      "detection_index": 1,
+      "object_id": 14,
+      "class_id": 13,
+      "confidence": 0.8179543614387512,
+      "predicted_box_xyxy": [
+        210.90377807617188,
+        44.292633056640625,
+        341.4858703613281,
+        157.01318359375
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          210,
+          44,
+          342,
+          158
+        ],
+        "xyz_m": [
+          -0.030174464134056004,
+          -0.10404215948297263,
+          0.81
+        ],
+        "valid_pixels": 11555,
+        "valid_fraction": 0.7678761297182349,
+        "depth_percentiles_m": [
+          0.798,
+          0.81,
+          0.865
+        ]
+      }
+    },
+    {
+      "detection_index": 2,
+      "object_id": 20,
+      "class_id": 19,
+      "confidence": 0.5684015154838562,
+      "predicted_box_xyxy": [
+        96.31549072265625,
+        329.04522705078125,
+        438.40045166015625,
+        452.16961669921875
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          96,
+          329,
+          439,
+          453
+        ],
+        "xyz_m": [
+          -0.03952615173916222,
+          0.09858210629262933,
+          0.644
+        ],
+        "valid_pixels": 29449,
+        "valid_fraction": 0.6923963133640553,
+        "depth_percentiles_m": [
+          0.612,
+          0.644,
+          0.79
+        ]
+      }
+    },
+    {
+      "detection_index": 3,
+      "object_id": 20,
+      "class_id": 19,
+      "confidence": 0.47769656777381897,
+      "predicted_box_xyxy": [
+        329.8291015625,
+        113.4036636352539,
+        412.48834228515625,
+        327.8426818847656
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          329,
+          113,
+          413,
+          328
+        ],
+        "xyz_m": [
+          0.04017592638768329,
+          -0.0010303124066147907,
+          0.834
+        ],
+        "valid_pixels": 7605,
+        "valid_fraction": 0.4210963455149502,
+        "depth_percentiles_m": [
+          0.77,
+          0.834,
+          0.854
+        ]
+      }
+    },
+    {
+      "detection_index": 4,
+      "object_id": 19,
+      "class_id": 18,
+      "confidence": 0.2884588837623596,
+      "predicted_box_xyxy": [
+        328.80694580078125,
+        116.56011962890625,
+        412.955810546875,
+        327.6959228515625
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          328,
+          116,
+          413,
+          328
+        ],
+        "xyz_m": [
+          0.039546966379134185,
+          -0.0010303124066147907,
+          0.834
+        ],
+        "valid_pixels": 7730,
+        "valid_fraction": 0.42896781354051056,
+        "depth_percentiles_m": [
+          0.77,
+          0.834,
+          0.853
+        ]
+      }
+    },
+    {
+      "detection_index": 5,
+      "object_id": 18,
+      "class_id": 17,
+      "confidence": 0.26263269782066345,
+      "predicted_box_xyxy": [
+        123.57744598388672,
+        219.52288818359375,
+        149.4033203125,
+        307.2708740234375
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          123,
+          219,
+          150,
+          308
+        ],
+        "xyz_m": [
+          -0.4284944772014421,
+          0.020105235005203802,
+          2.454
+        ],
+        "valid_pixels": 333,
+        "valid_fraction": 0.13857677902621723,
+        "depth_percentiles_m": [
+          2.401,
+          2.454,
+          2.6834
+        ]
+      }
+    },
+    {
+      "detection_index": 6,
+      "object_id": 19,
+      "class_id": 18,
+      "confidence": 0.25771379470825195,
+      "predicted_box_xyxy": [
+        95.24554443359375,
+        343.3987121582031,
+        440.31207275390625,
+        451.3268127441406
+      ],
+      "geometry": {
+        "status": "ok",
+        "reason": null,
+        "box_xyxy": [
+          95,
+          343,
+          441,
+          452
+        ],
+        "xyz_m": [
+          -0.04218457514121963,
+          0.10015084886279645,
+          0.641
+        ],
+        "valid_pixels": 26587,
+        "valid_fraction": 0.704963673967227,
+        "depth_percentiles_m": [
+          0.611,
+          0.641,
+          0.782
+        ]
+      }
+    }
+  ]
+}

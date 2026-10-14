@@ -1,0 +1,87 @@
+{
+  "scene": "000048",
+  "frame_id": 1,
+  "iou_threshold": 0.5,
+  "tp": 4,
+  "fp": 3,
+  "fn": 1,
+  "precision": 0.5714285714285714,
+  "recall": 0.8,
+  "detections": [
+    {
+      "detection_index": 0,
+      "object_id": 6,
+      "confidence": 0.8678486943244934,
+      "best_unmatched_same_class_iou": 0.938612174467379,
+      "matched_annotation_index": 1,
+      "surface_gap_cm": 0.23998361016886982,
+      "result": "TP"
+    },
+    {
+      "detection_index": 1,
+      "object_id": 14,
+      "confidence": 0.8179543614387512,
+      "best_unmatched_same_class_iou": 0.9392261526325545,
+      "matched_annotation_index": 2,
+      "surface_gap_cm": 0.1985252036106087,
+      "result": "TP"
+    },
+    {
+      "detection_index": 2,
+      "object_id": 20,
+      "confidence": 0.5684015154838562,
+      "best_unmatched_same_class_iou": 0.9067899381299039,
+      "matched_annotation_index": 4,
+      "surface_gap_cm": 0.8188533449557398,
+      "result": "TP"
+    },
+    {
+      "detection_index": 3,
+      "object_id": 20,
+      "confidence": 0.47769656777381897,
+      "best_unmatched_same_class_iou": 0.0,
+      "matched_annotation_index": null,
+      "surface_gap_cm": null,
+      "result": "FP"
+    },
+    {
+      "detection_index": 4,
+      "object_id": 19,
+      "confidence": 0.2884588837623596,
+      "best_unmatched_same_class_iou": 0.9227160660017996,
+      "matched_annotation_index": 3,
+      "surface_gap_cm": 1.7889460850298906,
+      "result": "TP"
+    },
+    {
+      "detection_index": 5,
+      "object_id": 18,
+      "confidence": 0.26263269782066345,
+      "best_unmatched_same_class_iou": 0.0,
+      "matched_annotation_index": null,
+      "surface_gap_cm": null,
+      "result": "FP"
+    },
+    {
+      "detection_index": 6,
+      "object_id": 19,
+      "confidence": 0.25771379470825195,
+      "best_unmatched_same_class_iou": 0.0,
+      "matched_annotation_index": null,
+      "surface_gap_cm": null,
+      "result": "FP"
+    }
+  ],
+  "missed_targets": [
+    {
+      "annotation_index": 0,
+      "object_id": 1,
+      "box_xyxy": [
+        206.0,
+        128.0,
+        338.0,
+        320.0
+      ]
+    }
+  ]
+}

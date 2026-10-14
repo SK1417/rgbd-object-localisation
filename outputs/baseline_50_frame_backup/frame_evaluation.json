@@ -1,0 +1,88 @@
+{
+  "scene": "000048",
+  "frame_id": 1,
+  "iou_threshold": 0.5,
+  "tp": 3,
+  "fp": 3,
+  "fn": 2,
+  "precision": 0.5,
+  "recall": 0.6,
+  "detections": [
+    {
+      "detection_index": 0,
+      "object_id": 1,
+      "confidence": 0.941152811050415,
+      "best_unmatched_same_class_iou": 0.5781522470900439,
+      "matched_annotation_index": 0,
+      "surface_gap_cm": 2.4318331464040046,
+      "result": "TP"
+    },
+    {
+      "detection_index": 1,
+      "object_id": 1,
+      "confidence": 0.7397648096084595,
+      "best_unmatched_same_class_iou": 0.0,
+      "matched_annotation_index": null,
+      "surface_gap_cm": null,
+      "result": "FP"
+    },
+    {
+      "detection_index": 2,
+      "object_id": 6,
+      "confidence": 0.7273941040039062,
+      "best_unmatched_same_class_iou": 0.9684698265811352,
+      "matched_annotation_index": 1,
+      "surface_gap_cm": 0.21377956077974597,
+      "result": "TP"
+    },
+    {
+      "detection_index": 3,
+      "object_id": 14,
+      "confidence": 0.7124733328819275,
+      "best_unmatched_same_class_iou": 0.9448569295820886,
+      "matched_annotation_index": 2,
+      "surface_gap_cm": 0.2769072571134787,
+      "result": "TP"
+    },
+    {
+      "detection_index": 4,
+      "object_id": 20,
+      "confidence": 0.40495043992996216,
+      "best_unmatched_same_class_iou": 0.12831668274636363,
+      "matched_annotation_index": null,
+      "surface_gap_cm": null,
+      "result": "FP"
+    },
+    {
+      "detection_index": 5,
+      "object_id": 9,
+      "confidence": 0.27504706382751465,
+      "best_unmatched_same_class_iou": 0.0,
+      "matched_annotation_index": null,
+      "surface_gap_cm": null,
+      "result": "FP"
+    }
+  ],
+  "missed_targets": [
+    {
+      "annotation_index": 3,
+      "object_id": 19,
+      "box_xyxy": [
+        329.0,
+        116.0,
+        419.0,
+        329.0
+      ]
+    },
+    {
+      "annotation_index": 4,
+      "object_id": 20,
+      "box_xyxy": [
+        92.0,
+        332.0,
+        441.0,
+        459.0
+      ]
+    }
+  ]
+}
